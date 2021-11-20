@@ -1,13 +1,10 @@
-
-
-const {MessageType, Presence, MessageOptions} = require('@adiwajshing/baileys');
+/baileys');
 const Base = require('./Base');
 const ReplyMessage = require('./ReplyMessage');
 
 class Message extends Base {
     constructor(client, data) {
-        super(client);
-        if (data) this._patch(data);
+ 
     }
 
     _patch(data) {
